@@ -72,7 +72,7 @@ const farms: FarmConfig[] = [
     token: tokens.usdt,
     quoteToken: tokens.usdc,
   },
-  {
+   {
     pid: 10,
     lpSymbol: '4TOKEN-WCORE LP',
     lpAddresses: {

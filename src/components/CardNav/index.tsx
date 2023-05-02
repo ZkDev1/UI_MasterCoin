@@ -62,7 +62,7 @@ function Nav({ activeIndex = 0 }: { activeIndex?: number }) {
         <TabItem active={activeTab === 1} id="pool-nav-link" to="/pool" style={{ borderRadius: '30px' }}>
           {TranslateString(262, 'Liquidity')}
         </TabItem>
-        <Bridge active={activeTab === 2} id="bridge-nav-link" href="https://bridge.coredao.org/bridge" style={{ borderRadius: '30px' }} target="_blank">
+        <Bridge active={activeTab === 2} id="bridge-nav-link" href="" style={{ borderRadius: '30px' }} target="_blank">
             {TranslateString(92, 'Bridge')}
         </Bridge>
         {/* <ButtonMenuItem id="zapin-nav-link" to="/zap" as={Link} style={{ borderRadius: '30px' }}>

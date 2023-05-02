@@ -16,7 +16,7 @@ const pools: PoolConfig[] = [
     sortOrder: 1,
     isFinished: false,
   },
-  {
+  /* {
     sousId: 1,
     stakingToken: tokens.xbow,
     earningToken: tokens.hunt,
@@ -30,7 +30,7 @@ const pools: PoolConfig[] = [
     sortOrder: 1,
     isFinished: false,
     depositFee: 0,
-  },
+  }, */
   {
     sousId: 2,
     stakingToken: tokens.xbow,
@@ -46,7 +46,7 @@ const pools: PoolConfig[] = [
     isFinished: false,
     depositFee: 0,
   },
-  {
+  /* {
     sousId: 8,
     stakingToken: tokens.hunt,
     earningToken: tokens.bow,
@@ -74,7 +74,7 @@ const pools: PoolConfig[] = [
     sortOrder: 4,
     isFinished: false,
     depositFee: 0,
-  },
+  }, */
 ]
 
 export default pools
