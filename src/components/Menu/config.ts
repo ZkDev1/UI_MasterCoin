@@ -35,7 +35,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'PoolIcon',
     href: '/xbow',
   },
-  {
+  /* {
     label: t('Bridge'),
     icon: 'BridgeIcon',
     href: '/bridge',
@@ -45,13 +45,13 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'NftIcon',
     href: '/nft',
     tag:'Coming Soon',
-  },
+  }, */
   {
-    label: 'Token Sales',
+    label: 'IDO',
     icon: 'IfoIcon',
-    href: '/iho',
+    href: '/ido',
   },  
-  {
+  /* {
     label: t('Info'),
     icon: 'InfoIcon',
     href: 'https://info.archerswap.finance/home',
@@ -78,13 +78,13 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
         target: "_blank",
       },
     ],
-  },
+  }, */
   {
     label: t('Lottery'),
     icon: 'TicketIcon',
     href: '/lottery',
   },
-  {
+  /* {
     label: 'Referrals',
     icon: 'ReferralIcon',
     href: '/referral',
@@ -93,42 +93,39 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     label: t('Multisender'),
     icon: 'DisperseIcon',
     href: '/disperse',
-  },
+  }, */
   {
     label: t('Partnership'),
     icon: 'PartnerIcon',
     href: 'https://docs.google.com/forms/d/e/1FAIpQLSffYIbIQYYjr52AeRolVPcNNTF6vIjS3qTUACa9UpbIlFVp7w/viewform',
     target: '_blank',
   },
-  {
+  /* {
     label: t('Audit'),
     icon: 'AuditIcon',
     href: 'https://docs.archerswap.finance/products-and-features-guide/audit',
     target: '_blank',
-  },
-  // {
-  //   label: 'Listing',
-  //   icon: 'ReferralIcon',
-  //   items: [
-  //     {
-  //       label: 'Snowtrace Explorer',
-  //       href: 'https://scan.coredao.org/token/0x695Fa794d59106cEbd40ab5f5cA19F458c723829',
-  //       target: '_blank',
-  //     },
-  //     {
-  //       label: 'DappRadar',
-  //       href: '#',
-  //     },
-  //     {
-  //       label: 'CoinGecko',
-  //       href: '#',
-  //     },
-  //     {
-  //       label: 'CoinMarketCap',
-  //       href: '#',
-  //     },
-  //   ],
-  // },
+  }, */
+   {
+     label: 'Listing',
+     icon: 'ReferralIcon',
+     items: [
+       {
+         label: 'Explorer',
+        href: 'https://scan.coredao.org/token/0x695Fa794d59106cEbd40ab5f5cA19F458c723829',
+         target: '_blank',
+      },
+
+       {
+         label: 'CoinGecko',
+        href: '#',
+      },
+       {
+         label: 'CoinMarketCap',
+         href: '#',
+       },
+     ],
+   },
   {
     label: t('More'),
     icon: 'MoreIcon',

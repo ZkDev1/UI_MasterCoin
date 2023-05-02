@@ -259,22 +259,22 @@ const BannerArcher = ({ src, alt, head, head2, title, text, mobileSrc, isDark, w
           <Text className="trade-text">{title}</Text>
           <Text className="bow-text">{text}</Text>
           <ButtonContainer>
-            <Button variant="tradeprimary" scale="md" mr="8px" className="button-lg">
+            <Button  scale="md" mr="8px" className="button-lg">
               Trade
             </Button>
-            <Button variant="tradesecondary" scale="md" mr="8px" className="button-lg">
+            <Button  scale="md" mr="8px" className="button-lg">
               Farms
             </Button>
-            <Button variant="tradeprimary" scale="sm" mr="8px" className="button-sm">
+            <Button  scale="sm" mr="8px" className="button-sm">
               Trade
             </Button>
-            <Button variant="tradesecondary" scale="sm" mr="8px" className="button-sm">
+            <Button scale="sm" mr="8px" className="button-sm">
               Farms
             </Button>
-            <Button variant="tradeprimary" scale="sm" mr="8px" className="button-xs">
+            <Button  scale="sm" mr="8px" className="button-xs">
               Trade
             </Button>
-            <Button variant="tradesecondary" scale="sm" mr="8px" className="button-xs">
+            <Button  scale="sm" mr="8px" className="button-xs">
               Farms
             </Button>
           </ButtonContainer>
