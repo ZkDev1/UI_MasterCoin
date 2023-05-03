@@ -27,7 +27,7 @@ const Ifos = () => {
         src="/images/assets/banners/ifo_banner.png"
         mobileSrc="/images/assets/banners/mobile_ifo_banner.png"
         alt="IDO_banner"
-        title="BowPad"
+        title="MasterPad"
         text={t('Buy new tokens with a brand new token sale model.')}
       />
       <StyledContainer>

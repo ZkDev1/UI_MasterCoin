@@ -126,26 +126,7 @@ const BoostPanel: React.FunctionComponent<BoostPanelProps> = ({ pid, isApproved,
   }
 
   return (
-    <Container>
-      <InfoContainer>
-        {!isMobile && <Text>{t('Stake NFT to increase BOW Earning')} 🚀</Text>}
-        <Text>{t('CURRENT BOOST')}</Text>
-        <Text>{boost}%</Text>
-      </InfoContainer>
-      <NFTContainer>
-        {[1, 2, 3].map((e) => (
-          <NFTBox key={e} disabled={approvePending || withdawPenidng} onClick={() => onBoxClick(e)}>
-            {tokenIds && tokenIds[e - 1] ? (
-              <Tooltip content={`Token ID: ${tokenIds[e - 1]}`}>
-                <StyledImg src={getUrl(Number(tokenIds[e - 1]))} alt="" />
-              </Tooltip>
-            ) : (
-              <>+</>
-            )}
-          </NFTBox>
-        ))}
-      </NFTContainer>
-    </Container>
+    <Container />
   )
 }
 

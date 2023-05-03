@@ -117,8 +117,8 @@ const Farm: React.FC = () => {
         src="/images/assets/banners/xbow_banner.png"
         mobileSrc="/images/assets/banners/mobile_xbow_banner.png"
         alt="pool_banner"
-        title="xBOW"
-        text={t('Stake your BOWs here to earn more!')}
+        title="xMaster"
+        text={t('Stake your Masters here to earn more!')}
       />
 
       <Page>
@@ -126,7 +126,7 @@ const Farm: React.FC = () => {
           <Text color="bow" fontSize="24px" style={{ whiteSpace: 'nowrap' }}>
             Step 1:
           </Text>
-          <Text fontSize="24px">{t('Stake BOW, Receive xBOW Immediately')}</Text>
+          <Text fontSize="24px">{t('Stake MASTER, Receive xMASTER Immediately')}</Text>
         </Container>
         <XbowCallout>
           <CardContainer>
@@ -134,12 +134,12 @@ const Farm: React.FC = () => {
             <LeftStyledCard>
               <Text color="text" fontSize="16px" mb="15px">
                 {t(
-                  'Stake BOW here and receive xBOW as receipt representing your share of the pool. This pool automatically compounds by using a portion of all trade fees to buy back BOW which means the xBOW to BOW ratio will grow over time!',
+                  'Stake MASTER here and receive xMASTER as receipt representing your share of the pool. This pool automatically compounds by using a portion of all trade fees to buy back MASTER which means the xMASTER to MASTER ratio will grow over time!',
                 )}
               </Text>
               <Text color="text" fontSize="16px">
                 {t(
-                  'There is a 4% withdraw fee if $xBOW is withdrawn to BOW within 3 days. 2% is burned and 2% is returned to the $xBOW contract.',
+                  'There is a 4% withdraw fee if $xMASTER is withdrawn to MASTER within 3 days. 2% is burned and 2% is returned to the $xMASTER contract.',
                 )}
               </Text>
             </LeftStyledCard>
@@ -147,7 +147,7 @@ const Farm: React.FC = () => {
           <CardContainer>
             <BowCard isDark={isDark}>
               <Text fontSize="22px" fontWeight="bold" textAlign="center" mb="24px">
-                1 xBOW
+                1 xMASTER
               </Text>
               <CircleWrapper>
                 <Doughnut data={data} options={options} />
@@ -156,7 +156,7 @@ const Farm: React.FC = () => {
                     ={xbowRatio.toFormat(4)}
                   </Text>
                   <Text color="textSubtle" fontSize="14px">
-                    BOW
+                    MASTER
                   </Text>
                 </LabelWrapper>
               </CircleWrapper>
@@ -164,7 +164,7 @@ const Farm: React.FC = () => {
             <StyledCard>
               <InfoSection>
                 <Flex alignItems="center" justifyContent="space-between" mb="8px">
-                  <Text color="textSubtle">{t('Claimable BOW')}</Text>
+                  <Text color="textSubtle">{t('Claimable MASTER')}</Text>
                   <ClaimWrapper>
                     <Text fontWeight="bold" textAlign="right">
                       ${claimableAmount.times(bowPrice).toFormat(2)}
@@ -202,7 +202,7 @@ const Farm: React.FC = () => {
           <Text color="bow" fontSize="24px">
             Step 2:
           </Text>
-          <Text fontSize="24px">{t('Stake xBOW, Earn Tokens of Your Choice Over Time')}</Text>
+          <Text fontSize="24px">{t('Stake xMASTER, Earn Tokens of Your Choice Over Time')}</Text>
         </Container>
         <PoolTabButtons stackedOnly={stackedOnly} setStackedOnly={setStackedOnly} />
         <FlexLayout>

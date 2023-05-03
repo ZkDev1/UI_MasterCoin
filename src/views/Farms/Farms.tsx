@@ -351,7 +351,7 @@ const Farms: React.FC = () => {
         mobileSrc="/images/assets/banners/mobile_farm_banner.png"
         alt="farm_banner"
         title={t('Farms')}
-        text={`${t('Stake LP tokens to earn BOW')}.`}
+        text={`${t('Stake LP tokens to earn MASTER')}.`}
       />
 
       <Background>

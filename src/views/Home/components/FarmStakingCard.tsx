@@ -29,7 +29,7 @@ const StyledUnlockButton = styled(UnlockButton)`
 `
 
 const LeftBlock = styled.div`
-  .bow {
+  .MASTER {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -39,7 +39,7 @@ const LeftBlock = styled.div`
 
 const RightBlock = styled.div`
   text-align: right;
-  .bow {
+  .MASTER {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -84,15 +84,15 @@ const FarmedStakingCard = () => {
       <CardBody>
         <Flex justifyContent="space-between">
           <LeftBlock>
-            <Text fontSize="16px" color="#BA6401" className='bow'>
-              {t('BOW to Harvest')}
+            <Text fontSize="16px" color="#BA6401" className='MASTER'>
+              {t('MASTER to Harvest')}
             </Text>
             <CakeHarvestBalance />
           </LeftBlock>
 
           <RightBlock>
-            <Text fontSize="16px" color="#BA6401" className='bow'>
-              {t('BOW in Wallet')}
+            <Text fontSize="16px" color="#BA6401" className='MASTER'>
+              {t('MASTER in Wallet')}
             </Text>
             <CakeWalletBalance />
           </RightBlock>
@@ -106,7 +106,7 @@ const FarmedStakingCard = () => {
               width="100%"
             >
               {pendingTx
-                ? t('Collecting Bow')
+                ? t('Collecting MASTER')
                 : t(`Harvest all (%count%)`, {
                     count: balancesWithValue.length,
                   })}

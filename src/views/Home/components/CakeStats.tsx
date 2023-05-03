@@ -57,13 +57,13 @@ const CakeStats = () => {
         <Flex justifyContent="space-between">
           <LeftBlock>
             <Text fontSize="16px" color="#BA6401" className="heading">
-              {t('BOW Price')}
+              {t('MASTER Price')}
             </Text>
             <CardValue color="#A9A29D" fontSize="22px" prefix='$' decimals={3} value={bowPriceUsd.toNumber()}/>
           </LeftBlock>
           <RightBlock>
             <Text fontSize="16px" color="#BA6401" className="heading">
-              {t('BOW Market Cap')}
+              {t('MASTER Market Cap')}
             </Text>
             <CardValue
               fontSize="22px"
@@ -77,14 +77,14 @@ const CakeStats = () => {
         <Flex justifyContent="space-between">
           <LeftBlock>
             <Text fontSize="16px" color="#BA6401" className="heading">
-              {t('BOW in Circulation')}
+              {t('MASTER in Circulation')}
             </Text>
             <CardValue color="#A9A29D" fontSize="22px" prefix='$' value={getBalanceNumber(circulatingBalance)} />
           </LeftBlock>
 
           <RightBlock>
             <Text fontSize="16px" color="#BA6401" className="heading">
-              {t('BOW Burned')}
+              {t('MASTER Burned')}
             </Text>
             <CardValue color="#A9A29D" fontSize="22px" decimals={0} value={getBalanceNumber(burnedBalance)} />
           </RightBlock>

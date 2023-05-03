@@ -85,24 +85,21 @@ const Home: React.FC = () => {
           mobileSrc="/images/assets/banners/1token_mobile.png"
           alt="home_banner"
           head={t('Welcome to')}
-          head2={t('ArcherSwap')}
-          title={t('Trade Mining, Farm & Pool')}
-          text={t('Open for BOW')}
+          head2={t('MasterCoin')}
+          title={t('Trade, Farm & Pool')}
+          text={t('')}
           isDark={isDark}
           white
         />
       <Page style={{minHeight: "auto"}}>
         <div>
           <Cards>
-            <FarmStakingCard />
             <CakeStats />
+            <FarmStakingCard />
             <TotalValueLockedCard />
           </Cards>
-          <Hero>
-            <HeroCard title="ArcherSwap" content="ArcherSwap is a crypto world for users to trade, earn, and game. It is the premier choice for projects on Core Chain with features including AMM, NFT, and GameFi."/>
-          </Hero>
           <CopyRight>
-            <Text className="copy">{`${t('©2023 ArcherSwap. All Rights Reserved')}`}</Text>
+            <Text className="copy">{`${t('©2023 MasterCoin. All Rights Reserved')}`}</Text>
           </CopyRight>
         </div>
       </Page>

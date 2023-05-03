@@ -77,7 +77,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, account, addLiquidi
       <Flex>
         <Text bold color="bow" fontSize="12px" pr="3px">
           {/* TODO: Is there a way to get a dynamic value here from useFarmFromSymbol? */}
-          BOW
+          MASTER
         </Text>
         <Text bold textTransform="uppercase" color="bow" fontSize="12px">
           {t('Earned')}

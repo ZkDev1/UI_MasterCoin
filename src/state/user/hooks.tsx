@@ -67,7 +67,7 @@ export function useDarkModeManager(): [boolean, () => void] {
     }),
     shallowEqual
   )
-  const darkMode = useIsDarkMode()
+  const darkMode = true
 
   const toggleSetDarkMode = useCallback(() => {
     setThemeCache(!userDarkMode)
